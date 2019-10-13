@@ -1,0 +1,75 @@
+html{
+    background-color: white;
+}
+body{
+    
+    background-color: rgb(229, 233, 235);
+    border: 2px solid black;
+    width: 700px;
+    height: 400px;
+}
+header{
+    text-align: center;
+    font-size: 18px;
+}
+.mainfunction{
+    border: 1px solid rgb(229, 233, 235);
+    background-color: linen;
+    font-size: 14px;
+    width: 600px;
+    margin-left: 44px;
+    height: 275px;  
+} 
+.btnGenPw{
+    background-color: red;
+    color: white;
+    border-radius: 12px;
+    margin-left: 50px;
+    margin-top: 15px;
+    padding: 15px;
+    width: 200px;
+    font-size: 18px;  
+}
+.btnClipboard{
+    background-color: darkgrey;
+    color: white;       
+    border-radius: 12px;
+    margin-left: 100px;
+    padding: 15px;
+    width: 200px;
+    font-size: 18px;
+}
+.passwordArea{
+    border: 2px dashed darkgrey;
+    text-align: center;
+    width: 500px;
+    margin: 3% ;
+    padding: 30px;
+}
+hr{
+    color: grey;
+}
+h2{
+    margin-left: 10px;
+}
+/*Large Screens*/
+@media screen and (max-width: 980px) {
+    .container {
+      max-width: 90%;  
+    }
+  }
+  
+  /*Medium Screens*/
+  @media screen and (max-width: 768px) {
+    .container {
+      max-width: 75%;  
+    }
+  }
+  
+  /*Small Screens*/
+  @media screen and (max-width: 640px) {
+    .container {
+      max-width: 50%;   
+    }
+  }
+  
